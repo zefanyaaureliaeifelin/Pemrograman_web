@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="in">
+<head
+  <meta charset="UTF-8">
+  <title>Judul halaman</title>
+</head>
+<body>
+  <table border=1 align=center>
+    <thead>
+      <tr>
+        <th colspan=4>Data Siswa</th>
+      </tr>
+      <tr>
+        <th>No</th
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>Agama</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>39</td>
+        <td>Zefanya Aurelia Eifelin</td>
+        <td>X RPL 1</td>
+        <td>Kristen</td>
+      <th>
+    </tbody>
+  </table>
+</body>
+</html>

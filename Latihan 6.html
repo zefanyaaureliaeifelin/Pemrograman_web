@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Percabangan</title>
+</head>
+<body>
+<script>
+    var totalBelanja=prompt("Masukkan total belanja",0);
+    if(totalBelanja > 100000) {document.write("Anda dapat bonus !");
+    }else{
+       document.write("Anda tidak dapat bonus !");
+       }
+       document.write("Terima kasih");
+       var nilai=prompt("Masukan Nilai akhir=",0);
+       var grade=" ";
+       if (nilai>=90)grade="A"
+       else if(nilai>=80)grade="B+"
+       else if(nilai>=70)grade="B"
+       else if(nilai>=60)grade="C+"
+       else if(nilai>=50)grade="C"
+       else if(nilai>=40)grade="D"
+       else if(nilai>=30)grade="E"
+       else grade="F";
+       document.write(`<p>Grade kamu adalah=${grade}`);
+</script>
+</body>
+</html
